@@ -26,8 +26,5 @@
     "px",
     "postcss",
     "postcss-plugin"
-  ],
-  "dependencies": {
-    "object-assign": "^4.1.0"
-  }
+  ]
 }
