@@ -1,6 +1,5 @@
 'use strict';
 
-var postcss = require('postcss');
 var objectAssign = require('object-assign');
 var remRegex = require('./lib/rem-unit-regex');
 var filterPropList = require('./lib/filter-prop-list');
@@ -54,6 +53,7 @@ const plugin = ('postcss-rem-to-pixel', function (options) {
 
     };
 });
+plugin.postcss = true
 
 module.exports = plugin;
 
