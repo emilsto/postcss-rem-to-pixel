@@ -11,7 +11,7 @@ I have updated the plugin to utilize the new PostCSS 8 API.
 ## Install
 
 ```shell
-$ npm install postcss-rem-to-pixel --save-dev
+$ npm i postcss-rem-to-pixel-next --save-dev
 ```
 
 ## Usage
