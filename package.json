@@ -1,7 +1,7 @@
 {
   "name": "postcss-rem-to-pixel",
   "description": "Convert rem (root em) units to px units using PostCSS. Based on postcss-pxtorem.",
-  "version": "4.1.2",
+  "version": "5.0.0",
   "author": "cuth, jesstech",
   "license": "MIT",
   "repository": {
@@ -11,7 +11,9 @@
   "bugs": "https://github.com/jesstech/postcss-rem-to-pixel/issues",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "format:check": "prettier . --check \"**/*.js\"",
+    "format:fix": "prettier . --write \"**/*.js\""
   },
   "devDependencies": {
     "jasmine": "^5.0.2",
@@ -26,5 +28,8 @@
     "px",
     "postcss",
     "postcss-plugin"
-  ]
+  ],
+  "dependencies": {
+    "prettier": "^3.0.0"
+  }
 }
