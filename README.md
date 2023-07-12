@@ -1,10 +1,10 @@
-# postcss-rem-to-pixel [![NPM version](https://badge.fury.io/js/postcss-rem-to-pixel-next.svg)](http://badge.fury.io/js/postcss-rem-to-pixel-next)
+# postcss-rem-to-pixel-next [![NPM version](https://badge.fury.io/js/postcss-rem-to-pixel-next.svg)](http://badge.fury.io/js/postcss-rem-to-pixel-next)
 
 A plugin for [PostCSS](https://github.com/ai/postcss) that generates px units from rem units.
 
 ## Acknowledgements
 
-This project is an updated version of the original [postcss-rem-to-pixel](https://github.com/jesstech/postcss-rem-to-pixel) plugin, which was created by [Jesstech](https://github.com/jesstech). All credit for the original concept and implementation goes to them. 
+This project is an updated version of the original [postcss-rem-to-pixel](https://github.com/jesstech/postcss-rem-to-pixel) plugin, which was created by [jesstech](https://github.com/jesstech). All credit for the original concept and implementation goes to them. 
 
 I have updated the plugin to utilize the new PostCSS 8 API.
 
