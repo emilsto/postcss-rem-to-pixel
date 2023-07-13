@@ -17,7 +17,7 @@ module.exports = (options = {}) => {
   let remReplace;
 
   return {
-    postcssPlugin: "postcss-rem-to-pixel",
+    postcssPlugin: "postcss-rem-to-pixel-next",
     Once() {
       remReplace = createRemReplace(
         opts.rootValue,
